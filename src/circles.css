@@ -1,0 +1,13 @@
+.circles {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+}

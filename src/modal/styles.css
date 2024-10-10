@@ -1,0 +1,21 @@
+.modal {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.modal-wrapper {
+    position: fixed;
+    background-color: gray;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}

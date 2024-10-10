@@ -1,0 +1,40 @@
+.grid {
+    display: grid;
+    /* grid-template-rows: repeat(8, 1fr); */
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.grid span {
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+}
+
+.black {
+    background-color: black;
+}
+
+.drag {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.drop-container {
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.initial {
+    color: white;
+}
+
+.enable {
+    color: black !important;
+}
+
+.grid:hover {
+    cursor: pointer;
+}

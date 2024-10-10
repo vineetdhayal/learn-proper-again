@@ -1,0 +1,34 @@
+.user-search-container {
+    position: relative;
+}
+
+.user-search-input {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.user-search-input input {
+    border: none;
+}
+
+.user-search-input input:focus {
+    outline: none;
+}
+
+.suggestion-list {
+    max-height: 300px;
+    overflow: scroll;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.suggestion-list li:last-child {
+    border: none;
+}

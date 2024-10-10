@@ -1,0 +1,55 @@
+.initial {
+    height: 15px;
+    width: 500px;
+    background-color: gray;
+    border: 1px solid black;
+    position: relative;
+}
+
+.initial span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.initial div {
+    height: 15px;
+}
+
+#root {
+    width: 100%;
+}
+
+.color {
+    color: red;
+}
+
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.bar {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bar-content {
+    transform-origin: left;
+    transform: scaleX(0);
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    transition-timing-function: linear;
+    transition-duration: 2000ms;
+}
+
+.bar-content-filled {
+    transform: scaleX(1);
+}

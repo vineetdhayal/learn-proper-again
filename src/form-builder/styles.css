@@ -1,0 +1,15 @@
+.group-header {
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    text-transform: capitalize;
+}
+
+.group-row {
+    border: 1px solid #d9d9d9;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.main {
+    overflow: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 150px));
+    grid-auto-rows: 10px;
+}
+
+.pin {
+    border: 1px solid black;
+}
+
+.small {
+    grid-row-end: span 25;
+}
+
+.mediym {
+    grid-row-end: span 35;
+}
+
+.large {
+    grid-row-end: span 50;
+}

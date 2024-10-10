@@ -1,0 +1,13 @@
+.item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+}

@@ -1,0 +1,48 @@
+.dice-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 600px;
+    border: 1px solid black;
+    gap: 20px;
+    height: 600px;
+}
+
+.dices {
+    width: 180px;
+    border: 1px dotted;
+    position: relative;
+    height: 150px;
+}
+
+.dot {
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px
+}
+
+.dot--top-left {
+    left: 0;
+    top: 0;
+}
+
+.dot--top-right {
+    right: 0;
+    top: 0;
+}
+
+.dot--center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot--bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.dot--bottom-right {
+    right: 0;
+    bottom: 0;
+}

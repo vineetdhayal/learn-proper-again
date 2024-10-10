@@ -1,0 +1,42 @@
+.stepper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.step {
+    width: 100px;
+    background-color: gray;
+    margin-right: 100px;
+}
+
+.step-number {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin: 20px;
+    z-index: 2;
+}
+
+.active .step-number {
+    background-color: blue;
+    color: white;
+}
+
+.completed .step-number {
+    background-color: green;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 50%;
+    background-color: grey;
+    height: 4px;
+}
+

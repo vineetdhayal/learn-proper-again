@@ -1,0 +1,14 @@
+.red {
+    color: red
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tabs-list {
+    display: flex;
+    gap: 6px;
+}

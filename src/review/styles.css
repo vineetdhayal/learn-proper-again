@@ -1,0 +1,67 @@
+.flex {
+    display: flex;
+    flex: 1;
+}
+
+.left-page {
+    width: 50%;
+}
+
+.star::before {
+    content: "\002605";
+}
+
+.star {
+    font-size: 40px;
+    color: gray;
+}
+
+.star:hover {
+    color: yellow;
+}
+
+.active {
+    color: yellow;
+}
+
+button:hover {
+    border: none;
+    box-shadow: none;
+    transition: none;
+}
+
+textarea {
+    height: 500px;
+    width: 500px;
+}
+
+.toast-message {
+    opacity: 0;
+    animation: fade-in 2s, fade-out 2s;
+    border: 1px solid;
+    position: absolute;
+}
+
+@keyframes fade-in {
+    from {
+        bottom: 30px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}

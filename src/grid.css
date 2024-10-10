@@ -1,0 +1,49 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main div {
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.green {
+    background-color: green;;
+}
+
+.folder {
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+
+.folder button {
+    background-color: beige;
+}
+
+.folder button:hover {
+    cursor: pointer;
+    background-color: beige;
+    outline: none;
+    border: none;
+    transition: none;
+}
+
+.file {
+    margin-left: 10px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.red {
+    background-color: red;
+}

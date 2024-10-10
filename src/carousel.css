@@ -1,0 +1,41 @@
+ .main {
+     position: relative;
+     width: 600px;
+     object-fit: contain;
+ }
+
+ .prev {
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translate(0, -50%);
+ }
+
+ .next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid;
+    transition: ease-in 2s;
+}
+
+.flex {
+    display: flex;
+    gap: 2px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.active {
+    background-color: black;
+}

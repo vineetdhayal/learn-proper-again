@@ -1,0 +1,16 @@
+.star::before {
+    content: "\002605";
+    font-size: 40px;
+}
+
+.star {
+    color: gray;
+}
+
+.star:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: black;
+}

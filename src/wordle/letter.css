@@ -1,0 +1,48 @@
+.letter {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 40px;
+    width: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.row:last-child .letter {
+    border-bottom: 1px solid black;
+}
+
+.wordle {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.keyboard {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 6px;
+    margin-right: 4px;
+    background-color: beige;
+    cursor: pointer;
+}

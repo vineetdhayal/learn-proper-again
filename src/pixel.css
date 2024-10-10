@@ -1,0 +1,31 @@
+.toolbar_mode {
+    height: 40px;
+    background-color: transparent;
+    font-size: medium;
+    border: 2px solid black;
+}
+
+.toolbar_mode--selected {
+    background-color: black;
+    color: white;
+}
+
+.toolbar {
+    display: flex;
+    gap: 20px;
+}
+
+.toolbar__color-picker {
+    display: flex;
+}
+
+.toobar_color--selected {
+    border: 1px solid black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(15, 20px);
+    grid-template-rows: repeat(15, 20px);
+    gap: 1px;
+}

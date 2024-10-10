@@ -1,0 +1,33 @@
+.grid-section {
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+}
+
+.grid-cell {
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard-row--button {
+    height: 40px;
+    border-radius: 4px;
+    background-color: gray;
+    margin: 2px;
+}
+
+.keyboard-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
